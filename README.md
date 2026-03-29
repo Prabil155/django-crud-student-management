@@ -38,19 +38,6 @@ venv\Scripts\activate
 5.Run the server
  python manage.py runserver
 
-Folder Structure
-django_crud_app/
-├── students/
-│   ├── templates/
-│   │   └── students/       # HTML files for CRUD pages
-│   ├── views.py            # Handles CRUD logic
-│   ├── models.py           # Student model
-│   └── urls.py             # URL routes for student app
-├── config/
-│   └── settings.py         # Django settings
-├── manage.py
-└── requirements.txt
-
 Usage
 Navigate to the Students page
 Add a new student using the form
